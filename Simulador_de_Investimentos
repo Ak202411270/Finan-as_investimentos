@@ -1,0 +1,19 @@
+**Descrição**  
+Aplicação web que permite ao usuário cadastrar uma conta, escolher investimentos (Ações, Fundos Imobiliários, Renda Fixa) e simular a evolução diária da carteira. A cada dia o sistema consulta uma API de cotações para atualizar os valores e calcula rendimento/valorização com base no dia anterior.
+
+**Demonstração**  
+(Adicionar GIF ou link para demo hospedada)
+
+## Tecnologias
+- Backend: PHP (POO) — opção: Laravel (com instruções abaixo)
+- Frontend: HTML5, CSS3
+- Banco de dados: MySQL
+- Integração: API externa (ex.: Alpha Vantage / Brapi) — chave necessária
+- Ferramentas: Git, XAMPP 
+
+## Funcionalidades
+- Autenticação de usuário (login/cadastro)
+- Cadastro de investimentos por tipo (Ação, FII, Renda Fixa)
+- Job diário que consulta API e atualiza preços (cron / agendador)
+
+
